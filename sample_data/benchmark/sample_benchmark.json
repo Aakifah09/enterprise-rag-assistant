@@ -1,0 +1,236 @@
+{
+  "name": "Sample benchmark (Halcyon Ridge demo)",
+  "description": "DEMONSTRATION BENCHMARK over the three fictional sample documents. 18 answerable questions with verbatim evidence passages and key facts, plus 4 unanswerable questions that test abstention. Results on this benchmark describe this tiny demo corpus only and are not a general measure of model accuracy.",
+  "is_sample": true,
+  "items": [
+    {
+      "qid": "Q01",
+      "question": "How many days of paid annual leave do full-time employees get?",
+      "expected_answer": "Full-time employees receive 18 days of paid annual leave per calendar year, accruing at 1.5 days per completed month of service.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": ["Full-time employees receive 18 days of paid annual leave per calendar year."],
+      "key_facts": ["18 days"],
+      "category": "hr-policy"
+    },
+    {
+      "qid": "Q02",
+      "question": "Can I carry unused annual leave into next year, and is there a deadline?",
+      "expected_answer": "Yes, up to 5 days of unused annual leave can be carried over; carried-over days must be used by 31 March or they are forfeited.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": ["Up to 5 days of unused annual leave can be carried over into the next year; carried-over days must be used by 31 March or they are forfeited."],
+      "key_facts": ["5 days", "31 March"],
+      "category": "hr-policy"
+    },
+    {
+      "qid": "Q03",
+      "question": "When do I need a medical certificate for sick leave?",
+      "expected_answer": "A medical certificate is required for any absence of more than two consecutive days.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": ["A medical certificate is required for any absence of more than two consecutive days."],
+      "key_facts": ["two consecutive days"],
+      "category": "hr-policy"
+    },
+    {
+      "qid": "Q04",
+      "question": "How long is the probation period and can it be extended?",
+      "expected_answer": "Probation lasts three months and may be extended once by up to three additional months if agreed objectives have not been met.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": [
+        "All new employees serve a probation period of three months.",
+        "Probation may be extended once, by up to three additional months, if agreed objectives have not been met."
+      ],
+      "key_facts": ["three months", "extended once"],
+      "category": "hr-policy"
+    },
+    {
+      "qid": "Q05",
+      "question": "Which days am I expected to be in the office?",
+      "expected_answer": "Employees work from the office at least two days per week; Tuesday and Thursday are the anchor days when everyone is expected in the office.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": ["Employees work from the office at least two days per week, and Tuesday and Thursday are the team anchor days on which everyone is expected in the office."],
+      "key_facts": ["Tuesday", "Thursday"],
+      "category": "hr-policy"
+    },
+    {
+      "qid": "Q06",
+      "question": "How many days per year can I work remotely from another country, and whose approval do I need?",
+      "expected_answer": "Up to 20 working days per calendar year, with written approval from both your manager and the People & Culture team at least 10 business days before travel.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": [
+        "Employees may work remotely from another country for up to 20 working days per calendar year.",
+        "Working from abroad requires written approval from both your manager and the People & Culture team at least 10 business days before travel"
+      ],
+      "key_facts": ["20 working days", "manager", "People & Culture"],
+      "category": "hr-policy"
+    },
+    {
+      "qid": "Q07",
+      "question": "What is the annual learning and development budget?",
+      "expected_answer": "Each employee has an annual learning budget of SGD 1,200; single requests above SGD 500 need manager approval in advance.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": ["Every employee has an annual learning budget of SGD 1,200 for courses, certifications and conferences."],
+      "key_facts": ["SGD 1,200"],
+      "category": "hr-policy"
+    },
+    {
+      "qid": "Q08",
+      "question": "What is the deadline for submitting expense claims and where are they submitted?",
+      "expected_answer": "Expenses must be submitted through the Ledgerly expense portal within 30 days of the date the cost was incurred, with an itemised receipt.",
+      "answerable": true,
+      "relevant_documents": ["employee_onboarding_policy.md"],
+      "evidence": ["Business expenses must be submitted through the Ledgerly expense portal within 30 days of the date the cost was incurred"],
+      "key_facts": ["30 days", "Ledgerly"],
+      "category": "finance"
+    },
+    {
+      "qid": "Q09",
+      "question": "What is the first response time and resolution target for a P1 critical incident?",
+      "expected_answer": "P1 incidents get a first response within 15 minutes, 24 hours a day, with a target resolution within 4 hours.",
+      "answerable": true,
+      "relevant_documents": ["it_support_incident_escalation_policy.pdf"],
+      "evidence": ["First response within 15 minutes, 24 hours a day. Target resolution within 4 hours."],
+      "key_facts": ["15 minutes", "4 hours"],
+      "category": "it-ops"
+    },
+    {
+      "qid": "Q10",
+      "question": "Who must be notified during a P1 incident and how quickly?",
+      "expected_answer": "An Incident Commander is appointed immediately and the Chief Technology Officer must be notified within 30 minutes.",
+      "answerable": true,
+      "relevant_documents": ["it_support_incident_escalation_policy.pdf"],
+      "evidence": ["An Incident Commander is appointed immediately and the Chief Technology Officer must be notified within 30 minutes."],
+      "key_facts": ["Chief Technology Officer", "30 minutes"],
+      "category": "it-ops"
+    },
+    {
+      "qid": "Q11",
+      "question": "When is a P2 incident escalated from the service desk to Platform Engineering?",
+      "expected_answer": "P1 and P2 incidents are escalated from L1 to L2 (Platform Engineering) if there is no progress within 30 minutes.",
+      "answerable": true,
+      "relevant_documents": ["it_support_incident_escalation_policy.pdf"],
+      "evidence": ["P1 and P2 incidents are escalated from L1 to L2 if there is no progress within 30 minutes."],
+      "key_facts": ["30 minutes"],
+      "category": "it-ops"
+    },
+    {
+      "qid": "Q12",
+      "question": "How quickly must a lost or stolen laptop be reported?",
+      "expected_answer": "Lost or stolen laptops, phones and access badges must be reported to the IT service desk within 2 hours of discovery.",
+      "answerable": true,
+      "relevant_documents": ["it_support_incident_escalation_policy.pdf"],
+      "evidence": ["Lost or stolen laptops, phones and access badges must be reported to the IT service desk within 2 hours of discovery."],
+      "key_facts": ["2 hours"],
+      "category": "security"
+    },
+    {
+      "qid": "Q13",
+      "question": "What are the password length and MFA requirements?",
+      "expected_answer": "Passwords must be at least 14 characters long and multi-factor authentication is mandatory for all accounts; passwords are changed only when compromise is suspected.",
+      "answerable": true,
+      "relevant_documents": ["it_support_incident_escalation_policy.pdf"],
+      "evidence": ["Passwords for company accounts must be at least 14 characters long. Multi-factor authentication is mandatory for all accounts."],
+      "key_facts": ["14 characters"],
+      "category": "security"
+    },
+    {
+      "qid": "Q14",
+      "question": "Within how many days must a post-incident review be held for P1 and P2 incidents?",
+      "expected_answer": "Within 5 business days of resolution; the review is blameless.",
+      "answerable": true,
+      "relevant_documents": ["it_support_incident_escalation_policy.pdf"],
+      "evidence": ["A post-incident review is mandatory for every P1 and P2 incident and must be held within 5 business days of resolution."],
+      "key_facts": ["5 business days"],
+      "category": "it-ops"
+    },
+    {
+      "qid": "Q15",
+      "question": "How much does the Beacon Growth plan cost and does it include SSO?",
+      "expected_answer": "Growth costs USD 99 per user per month and includes single sign-on (SSO) with SAML 2.0, 250 GB storage and role-based access control.",
+      "answerable": true,
+      "relevant_documents": ["beacon_product_faq.txt"],
+      "evidence": ["Growth costs USD 99 per user per month. It includes 250 GB of managed storage, single sign-on (SSO) with SAML 2.0, and role-based access control."],
+      "key_facts": ["USD 99", "SAML"],
+      "category": "product"
+    },
+    {
+      "qid": "Q16",
+      "question": "Can a customer get a refund on an annual Beacon subscription?",
+      "expected_answer": "Annual subscriptions can be cancelled within the first 30 days for a prorated refund of the unused months; after 30 days they are not refundable. Monthly subscriptions are not refundable.",
+      "answerable": true,
+      "relevant_documents": ["beacon_product_faq.txt"],
+      "evidence": ["Annual subscriptions can be cancelled within the first 30 days for a prorated refund of the unused months."],
+      "key_facts": ["30 days", "prorated"],
+      "category": "product"
+    },
+    {
+      "qid": "Q17",
+      "question": "Which data residency regions does Beacon offer?",
+      "expected_answer": "Singapore, Frankfurt or Northern Virginia, chosen when the workspace is created.",
+      "answerable": true,
+      "relevant_documents": ["beacon_product_faq.txt"],
+      "evidence": ["Customers choose a data residency region when the workspace is created: Singapore, Frankfurt or Northern Virginia."],
+      "key_facts": ["Singapore", "Frankfurt", "Northern Virginia"],
+      "category": "product"
+    },
+    {
+      "qid": "Q18",
+      "question": "A customer reports a full outage of Beacon. How should it be handled internally and how fast must customers be contacted?",
+      "expected_answer": "A customer-reported outage is handled as a P1 incident under the IT Support and Incident Escalation Policy; for customer-facing P1 incidents Customer Success must send the first customer communication within 1 hour.",
+      "answerable": true,
+      "relevant_documents": ["beacon_product_faq.txt", "it_support_incident_escalation_policy.pdf"],
+      "evidence": [
+        "Internally, a customer-reported outage is handled as a P1 incident under the IT Support and Incident Escalation Policy.",
+        "For customer-facing P1 incidents, the Customer Success team must send the first customer communication within 1 hour of the incident being declared."
+      ],
+      "key_facts": ["P1", "1 hour"],
+      "category": "cross-document"
+    },
+    {
+      "qid": "U01",
+      "question": "How many weeks of paid parental leave does Halcyon Ridge offer?",
+      "expected_answer": "",
+      "answerable": false,
+      "relevant_documents": [],
+      "evidence": [],
+      "key_facts": [],
+      "category": "unanswerable"
+    },
+    {
+      "qid": "U02",
+      "question": "What was Halcyon Ridge Analytics' total revenue last financial year?",
+      "expected_answer": "",
+      "answerable": false,
+      "relevant_documents": [],
+      "evidence": [],
+      "key_facts": [],
+      "category": "unanswerable"
+    },
+    {
+      "qid": "U03",
+      "question": "What is the guest Wi-Fi password for the Singapore office?",
+      "expected_answer": "",
+      "answerable": false,
+      "relevant_documents": [],
+      "evidence": [],
+      "key_facts": [],
+      "category": "unanswerable"
+    },
+    {
+      "qid": "U04",
+      "question": "Does Beacon Insights have a native mobile app for iOS?",
+      "expected_answer": "",
+      "answerable": false,
+      "relevant_documents": [],
+      "evidence": [],
+      "key_facts": [],
+      "category": "unanswerable"
+    }
+  ]
+}

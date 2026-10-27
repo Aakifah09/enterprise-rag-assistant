@@ -1,0 +1,44 @@
+[server]
+maxUploadSize = 20          # MB, matches RAG_MAX_UPLOAD_MB default
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "dark"
+primaryColor = "#3987e5"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#161b26"
+codeBackgroundColor = "#11151f"
+textColor = "#e6e8ee"
+linkColor = "#6aa8f0"
+borderColor = "#262d3d"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "13px"
+baseFontSize = 14
+headingFontWeights = [650, 600, 600, 550, 550, 500]
+# Validated dark-mode categorical order (blue, orange, aqua, yellow, magenta, green, violet, red)
+chartCategoricalColors = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"]
+blueColor = "#3987e5"
+greenColor = "#2fb37a"
+orangeColor = "#d98a26"
+redColor = "#e66767"
+violetColor = "#9085e9"
+yellowColor = "#e0b23c"
+grayColor = "#8b93a7"
+dataframeHeaderBackgroundColor = "#161b26"
+dataframeBorderColor = "#262d3d"
+
+[theme.sidebar]
+backgroundColor = "#0b0e14"
+secondaryBackgroundColor = "#161b26"
+borderColor = "#262d3d"

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Runtime data: database, indexes, embeddings, logs, exports
+data/
+outputs/logs/
+outputs/experiments/
+*.db
+*.db-wal
+*.db-shm
+*.faiss
+
+# Uploaded/private documents never belong in git
+uploads/
+
+# Models
+models/
+*.bin
+*.safetensors
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Run logs
+outputs/*.log

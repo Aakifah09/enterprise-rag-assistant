@@ -1,0 +1,76 @@
+BEACON INSIGHTS — PRODUCT FAQ FOR SALES AND SUPPORT TEAMS
+
+DEMONSTRATION DATA. Beacon Insights and Halcyon Ridge Analytics are fictional. This FAQ was written for the Enterprise Knowledge Assistant demo; prices, features and terms are invented.
+
+Last reviewed: February 2026. Owner: Product Marketing.
+
+
+WHAT IS BEACON INSIGHTS?
+
+Beacon Insights is Halcyon Ridge Analytics' cloud analytics platform. It connects to a company's data warehouse, lets business users build dashboards without writing SQL, and sends scheduled reports and anomaly alerts by email or Slack.
+
+
+PLANS AND PRICING
+
+Q: What plans are available?
+A: There are three plans: Starter, Growth and Enterprise.
+
+Q: How much does the Starter plan cost?
+A: Starter costs USD 49 per user per month, billed monthly or annually. It supports up to 10 users and includes 50 GB of managed storage.
+
+Q: How much does the Growth plan cost?
+A: Growth costs USD 99 per user per month. It includes 250 GB of managed storage, single sign-on (SSO) with SAML 2.0, and role-based access control.
+
+Q: How is the Enterprise plan priced?
+A: Enterprise pricing is custom and is quoted by the sales team based on the number of users, storage and support requirements. Enterprise includes a dedicated customer success manager, audit logs and a contractual uptime SLA of 99.95%.
+
+Q: Is there a free trial?
+A: Yes. New workspaces get a 14-day free trial of the Growth plan. No credit card is required to start a trial. At the end of the trial the workspace switches to read-only until a plan is purchased.
+
+Q: What is the refund policy?
+A: Monthly subscriptions are not refundable. Annual subscriptions can be cancelled within the first 30 days for a prorated refund of the unused months. After 30 days, annual subscriptions are not refundable but remain active until the end of the term.
+
+Q: Do you offer discounts?
+A: Registered non-profit organisations and accredited universities receive a 30% discount on Starter and Growth annual plans.
+
+
+DATA AND INTEGRATIONS
+
+Q: Which data sources can Beacon connect to?
+A: Beacon has native connectors for Snowflake, Google BigQuery, Amazon Redshift, PostgreSQL, MySQL and Salesforce. Other sources can be loaded through CSV upload or the REST API.
+
+Q: Where is customer data stored?
+A: Customers choose a data residency region when the workspace is created: Singapore, Frankfurt or Northern Virginia. The region cannot be changed after creation without a migration project led by support.
+
+Q: How long is data retained?
+A: By default, query results and dashboard snapshots are retained for 13 months. Enterprise customers can configure retention between 30 days and 7 years.
+
+Q: Can data be exported?
+A: Yes. Any dashboard dataset can be exported to CSV or Apache Parquet, and all workspace data is available through the REST API.
+
+Q: What are the API rate limits?
+A: The REST API allows 600 requests per minute per workspace. Requests above the limit receive HTTP 429 responses and should be retried with exponential backoff.
+
+
+SECURITY AND COMPLIANCE
+
+Q: Is Beacon certified?
+A: Beacon holds a SOC 2 Type II report and ISO/IEC 27001 certification. Customers can request the latest SOC 2 report under NDA through their account manager.
+
+Q: How is data encrypted?
+A: Data is encrypted at rest with AES-256 and in transit with TLS 1.2 or higher. Enterprise customers can use customer-managed encryption keys.
+
+Q: Does Beacon train AI models on customer data?
+A: No. Customer data is never used to train machine-learning models, including the models behind the anomaly-alert feature.
+
+
+AVAILABILITY AND SUPPORT
+
+Q: What uptime does Beacon commit to?
+A: The Growth plan has a 99.9% monthly uptime SLA and the Enterprise plan has a 99.95% monthly uptime SLA. The Starter plan has no contractual SLA. Service credits are issued when the SLA is missed.
+
+Q: What are the support response times?
+A: Starter customers receive email support with a first response within 2 business days. Growth customers receive email and chat support with a first response within 8 business hours. Enterprise customers receive 24/7 phone support with a first response within 1 hour for critical issues.
+
+Q: How do customers report an outage?
+A: Customers should check the public status page first and then open a ticket marked "Critical" in the support portal. Internally, a customer-reported outage is handled as a P1 incident under the IT Support and Incident Escalation Policy.
